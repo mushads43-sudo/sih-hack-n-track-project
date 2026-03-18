@@ -1,128 +1,95 @@
-# 🚆 AI-Powered Railway Traffic Control System
+Railway Traffic Control AI Prototype
 
-An intelligent web-based prototype that simulates and optimizes railway traffic operations using real-time analytics, scenario-based modeling, and AI-inspired decision support.
+A comprehensive web application prototype for AI-powered railway traffic control system, designed for hackathon presentation.
 
----
+Features
 
-## 📌 Overview
+🎯 Dashboard
 
-This project models a **centralized railway control system** that monitors train movement, evaluates system performance, and provides actionable recommendations to improve efficiency and reduce delays.
+Real-time metrics display (throughput, delays, utilization, on-time performance)
+Interactive charts and visualizations
+Live data updates every 2 seconds
+Track utilization pie charts
+🚂 Live Simulation
 
-It combines **simulation, visualization, and analytical logic** to replicate real-world operational decision-making environments.
+Animated train movement visualization
+Multiple scenario testing:
+Normal operations
+VIP train priority
+Track washout emergency
+Heavy congestion
+Real-time train status monitoring
+System alerts and notifications
+📊 What-If Analysis
 
----
+Scenario comparison tool
+Performance impact analysis
+Cost-benefit calculations
+Time series analysis
+Interactive charts for all scenarios
+🤖 AI Recommendations
 
-## 🚀 Key Features
+Intelligent analysis and recommendations
+Priority-based categorization
+Impact and effort assessment
+Implementation timelines
+Confidence scoring
+Getting Started
 
-### 🎯 Real-Time Dashboard
-- Tracks key performance metrics:
-  - Throughput
-  - Delays
-  - Track utilization
-  - On-time performance
-- Interactive and dynamic visualizations
-- Near real-time updates
+Prerequisites
 
----
+Node.js (v16 or higher)
+npm or yarn
+Installation
 
-### 🚂 Simulation Engine
-- Visualizes train movement across tracks
-- Supports multiple operational scenarios:
-  - Normal operations
-  - VIP train prioritization
-  - Track washout (emergency handling)
-  - High congestion
-- Real-time system alerts and monitoring
-
----
-
-### 📊 What-If Analysis
-- Scenario comparison and evaluation
-- Cost-benefit analysis of decisions
-- Time-series performance insights
-- Interactive analytical charts
-
----
-
-### 🤖 Decision Support System
-- Rule-based AI-inspired recommendations
-- Priority-based action classification
-- Impact vs effort evaluation
-- Confidence scoring for decisions
-
----
-
-## 🏗️ Architecture
-Frontend (React + Vite)  
-↓  
-Simulation Layer (Scenario Engine)  
-↓  
-Analytics Layer (Metrics + Visualization)  
-↓  
-Decision Support Layer (Rule-Based Logic)
-
-
----
-
-## ⚙️ Tech Stack
-
-- **Frontend:** React 18, Vite  
-- **Routing:** React Router  
-- **Styling:** Tailwind CSS  
-- **Visualization:** Recharts  
-- **Animations:** Framer Motion  
-- **Icons:** Lucide React  
-
----
-
-## 📂 Project Structure
-src/
-├── components/
-│   └── Navbar.jsx
-├── pages/
-│   ├── Dashboard.jsx
-│   ├── LiveSimulation.jsx
-│   ├── WhatIfAnalysis.jsx
-│   └── AIRecommendations.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
----
-
-## 🛠️ Getting Started
-
-### Prerequisites
-- Node.js (v16+)
-- npm or yarn
-
-### Installation
-
-```bash
+Install dependencies:
 npm install
-
+Start the development server:
 npm run dev
+Open your browser and navigate to http://localhost:3000
+Building for Production
 
 npm run build
+Project Structure
 
-## 🧪 Use Cases
-- Railway traffic optimization  
-- Smart transportation systems  
-- Emergency response planning  
-- Infrastructure capacity analysis  
-- Real-time operational decision support  
+src/
+├── components/
+│   └── Navbar.jsx          # Navigation component
+├── pages/
+│   ├── Dashboard.jsx       # Main dashboard with metrics
+│   ├── LiveSimulation.jsx  # Train simulation with scenarios
+│   ├── WhatIfAnalysis.jsx  # Scenario comparison tool
+│   └── AIRecommendations.jsx # AI-powered recommendations
+├── App.jsx                 # Main app component with routing
+├── main.jsx               # React entry point
+└── index.css              # Global styles and Tailwind CSS
+Key Technologies
 
-## 📈 Engineering Highlights
-- Built a scenario-driven simulation engine for modeling operational uncertainty  
-- Designed a decision-support system using rule-based AI logic  
-- Developed interactive dashboards for real-time performance tracking  
-- Implemented what-if analysis for strategic decision evaluation  
-- Structured a modular and scalable frontend architecture  
+React 18 - Frontend framework
+React Router - Client-side routing
+Tailwind CSS - Utility-first CSS framework
+Recharts - Data visualization library
+Framer Motion - Animation library
+Lucide React - Icon library
+Vite - Build tool and dev server
+Presentation Tips
 
-## 🌍 Why This Project Matters
-Modern systems — from transportation networks to financial platforms — require real-time decision-making under uncertainty.  
-This project demonstrates how simulation, analytics, and decision logic can be combined to improve operational efficiency and system reliability.  
+Dashboard: Show real-time metrics and explain how AI monitoring improves efficiency
+Live Simulation: Demonstrate different scenarios and how the system adapts
+What-If Analysis: Compare scenarios and show cost-benefit analysis
+AI Recommendations: Highlight intelligent decision-making and automation
+Customization
+
+Modify train data in LiveSimulation.jsx
+Update metrics in Dashboard.jsx
+Add new scenarios in WhatIfAnalysis.jsx
+Customize AI recommendations in AIRecommendations.jsx
+Demo Scenarios
+
+Normal Operations: Show baseline performance
+VIP Train: Demonstrate priority handling
+Track Washout: Show emergency response
+Congestion: Display traffic management
 
 ## 👩‍💻 Contribution
 - Developed an AI-powered railway traffic control prototype in a hackathon environment  
