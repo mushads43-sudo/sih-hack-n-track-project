@@ -105,11 +105,12 @@ npm run dev
 Open your browser and navigate to http://localhost:3000
 ```
 ## **Key Learning**
-Built a real-time simulation system using modern frontend technologies
-Developed interactive dashboards for data visualization and monitoring
-Designed scenario-based analysis for decision support systems
-Gained experience in building scalable React applications
-Implemented dynamic UI updates and animations for real-time systems
-Understood the role of AI in optimizing large-scale infrastructure systems
-Enhanced skills in system design, UI/UX, and performance optimization
-Learned how to present complex systems effectively in a hackathon setting
+
+- Built a real-time simulation system using modern frontend technologies  
+- Developed interactive dashboards for data visualization and monitoring  
+- Designed scenario-based analysis for decision support systems  
+- Gained experience in building scalable React applications  
+- Implemented dynamic UI updates and animations for real-time systems  
+- Understood the role of AI in optimizing large-scale infrastructure systems  
+- Enhanced skills in system design, UI/UX, and performance optimization  
+- Learned how to present complex systems effectively in a hackathon setting  
